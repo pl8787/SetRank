@@ -32,13 +32,12 @@ sh ./scripts/train_transformer_istella.sh
 If you use SetRank in your research, please use the following BibTex entry.
 
 ```
-@misc{pang2019setrank,
+@inproceedings{pang2019setrank,
     title={SetRank: Learning a Permutation-Invariant Ranking Model for Information Retrieval},
     author={Liang Pang and Jun Xu and Qingyao Ai and Yanyan Lan and Xueqi Cheng and Jirong Wen},
-    year={2019},
-    eprint={1912.05891},
-    archivePrefix={arXiv},
-    primaryClass={cs.IR}
+    booktitle = {Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+    series = {SIGIR'20},
+    year = {2020},
 }
 ```
 
